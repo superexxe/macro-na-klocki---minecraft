@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="jni">
+      <UniqueIdentifier>{aec916fd-b5f5-4e23-bdf2-141c517569fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jni\win32">
+      <UniqueIdentifier>{3ff6b1ee-98a0-4de8-a5df-faa1fd1e7162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{3926c6ba-36a1-4212-a134-a9db4af49f45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni\classfile_constants.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\jawt.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\jdwpTransport.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\jni.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\jvmti.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\jvmticmlr.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\win32\jawt_md.h">
+      <Filter>jni\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\win32\jni_md.h">
+      <Filter>jni\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
